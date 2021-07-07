@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+  background: #000;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 15px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.stats {
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin: 50px 50px 80px 50px;
+}
+
+.book-cover {
+  margin: 0 auto;
+  width: 200px;
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+}
+
+.entry {
+  margin:0px;
+}
+
+.entry:before {
+  content: attr(nyt-rank);
+  color: #000;
+}
+
+#best-seller-titles {
+  max-width: 100%;
+  margin: 50px ;
+}
+
+#best-seller-titles a {
+  margin: 40px 0px 0px 0px;
+  text-decoration: none;
+  color: #000000;
+  line-height: .2;
+}
+
+#best-seller-titles h1, #best-seller-titles h2, #best-seller-titles h3, #best-seller-titles h4 {
+  color: #c7c7c7;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+#best-seller-titles p {
+  color: #333030;
+  line-height: 0.8;
+}
+
+#best-seller-titles .publisher {
+  color: #333030;
+}
+
+#best-seller-titles .stats hr {
+  opacity: .5;
+}
+
+#best-seller-titles .stats p {
+  color: #282c37;
+}
+
+#masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #FFF;
+  z-index: 9999;
+  width: 100%;
+  padding: 10px 10px 10px 50px;
+  -webkit-box-shadow: 0px 1px 5px 0px #777;
+  box-shadow: 0px 1px 5px 0px #777;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
